@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndLayout</string>
+    <string name="okay">확인</string>
+    <string name="cancel">취소</string>
+
+    <string name="linear_first">리니어 첫번째</string>
+    <string name="linear_second">리니어 두번째</string>
+
+    <string name="hello">안녕하세요</string>
+    <string name="thisisandlayout">이것은 안드레이아웃입니다.</string>
+</resources>
