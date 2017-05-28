@@ -1,6 +1,29 @@
 
+## AndLayout
+You can set IOS layout using Android style layout with xml.
+
+Supported View
+- RelativeLayout
+- LinearLayout
+- FrameLayout
+- TextView
+- Button
+- ImageView
+
+## Structure
+##### android_values
+It is same as values in android.
+Now only supports colors.xml, dimens.xml, strings.xml
+
+##### android_drawable - Not supported yet.
+It is same as drawable in android.
+You can set your drawable file in this folder.
+
+##### android_layout
+It is same as layout in android.
+You can set your layout file in this folder like activity_main.xml
+
 ## License
----
 ```
 Copyright 2017 Taekyu Yeom
 
