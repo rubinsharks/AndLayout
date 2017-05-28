@@ -23,6 +23,20 @@ You can set your drawable file in this folder.
 It is same as layout in android.
 You can set your layout file in this folder like activity_main.xml
 
+## Example
+#### in UIViewController
+```
+    let parser = TKLayoutParser(frame: self.view.frame)
+    var view = parser.getViewFromXML(fromXML: "main")
+    var button = view!.findViewById(id: "button")
+    if let clickButton = button as? UIButton {
+        clickButton.addTarget(self, action: #selector(buttonClicked), for: UIControlEvents.touchUpInside)
+    }
+    if let uiview = view as? UIView {
+        self.view = uiview
+    }
+```
+
 ## License
 ```
 Copyright 2017 Taekyu Yeom
